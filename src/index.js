@@ -4,7 +4,7 @@ import Notiflix from 'notiflix';
 import { fetchBreeds, fetchCatByBreed } from './cat.api';
 
 axios.defaults.headers.common['x-api-key'] =
-  'live_SmQfevpQsjfhtWC8NH6gTQNWeS5742a70Ho03DejgriCmNnyzGusbnCWMwPLzPYd';
+  'live_RYTotlA6fQ3ig4y8SmGanFeLZxUetBbmuZj60PDZpuXaPh9W7kEbGCDntGIzbwFU';
 
 const breedSelect = document.querySelector('.breed-select');
 const catInfo = document.querySelector('.cat-info');
